@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19540" started-at="2022-11-02T04:58:35Z" finished-at="2022-11-02T04:58:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19540" started-at="2022-11-02T04:58:35Z" finished-at="2022-11-02T04:58:55Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:tests.LoginTest@48140564]" name="launchApp" is-config="true" duration-ms="4411" started-at="2022-11-01T21:58:35Z" finished-at="2022-11-01T21:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="verifyLoginWithValidDetails()[pri:1, instance:tests.LoginTest@48140564]" name="verifyLoginWithValidDetails" duration-ms="3632" started-at="2022-11-01T21:58:40Z" finished-at="2022-11-01T21:58:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidDetails -->
+        <test-method status="PASS" signature="delayAfterEachMethod()[pri:0, instance:tests.LoginTest@48140564]" name="delayAfterEachMethod" is-config="true" duration-ms="0" started-at="2022-11-01T21:58:44Z" finished-at="2022-11-01T21:58:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delayAfterEachMethod -->
+        <test-method status="PASS" signature="verifyAppTitle()[pri:2, instance:tests.LoginTest@48140564]" name="verifyAppTitle" duration-ms="5034" started-at="2022-11-01T21:58:44Z" finished-at="2022-11-01T21:58:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppTitle -->
+        <test-method status="PASS" signature="delayAfterEachMethod()[pri:0, instance:tests.LoginTest@48140564]" name="delayAfterEachMethod" is-config="true" duration-ms="1" started-at="2022-11-01T21:58:49Z" finished-at="2022-11-01T21:58:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delayAfterEachMethod -->
+        <test-method status="PASS" signature="verifyLogout()[pri:3, instance:tests.LoginTest@48140564]" name="verifyLogout" duration-ms="1156" started-at="2022-11-01T21:58:49Z" finished-at="2022-11-01T21:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:tests.LoginTest@48140564]" name="closeApp" is-config="true" duration-ms="5284" started-at="2022-11-01T21:58:50Z" finished-at="2022-11-01T21:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="delayAfterEachMethod()[pri:0, instance:tests.LoginTest@48140564]" name="delayAfterEachMethod" is-config="true" duration-ms="0" started-at="2022-11-01T21:58:50Z" finished-at="2022-11-01T21:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delayAfterEachMethod -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
